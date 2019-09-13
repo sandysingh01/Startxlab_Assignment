@@ -1,0 +1,26 @@
+import java.util.Scanner
+import java.lang.*;         //Import important library
+
+
+
+public class MyClass {
+    public static void main(String args[]) {
+      int C=50;   //value of C&H are fix in the problem statement
+      int H=30;
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Enter the value of D");   //taking input from the user
+String  D = scan.nextLine();
+       int answer = math.floor(math.sqrt((2 * C * D) / H)); 
+       System.out.println(answer ) ;
+    }
+}
+
+
+
+
+
+
+
+
+//enter number : 150
+//the answer is 22 
