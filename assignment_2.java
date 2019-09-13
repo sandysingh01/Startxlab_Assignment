@@ -13,15 +13,11 @@
         int secondUserScore =0;
         char playAgainOrNot;
  
-        Scanner keyboard = new Scanner(System.in);
- 
-        //player 1 name
+        Scanner keyboard = new Scanner(System.in)  
         System.out.println("Hello and welcome to the Guess Number Game.");
         System.out.println("Please enter your first name player 1");
         name= keyboard.next();
-        player1.setName(name);
- 
-        //player 2 name
+        player1.setName(name);                                                //Input user name
         System.out.println("Please enter your first name player 2");
         name = keyboard.next();
         player2.setName(name);
@@ -156,5 +152,5 @@
         //print out of all of the data store in object
         System.out.print(player1.toString() + " \n" + player2.toString());
  
-    }//main
-}//class 
+    }
+}
